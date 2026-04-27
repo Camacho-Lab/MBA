@@ -2447,7 +2447,7 @@ print(dados[["proba_rede_neural", "pred_rede_neural"]].head())
 historico_nn = pd.DataFrame(history_nn.history)
 historico_nn["epoch"] = historico_nn.index + 1
 
-display(historico_nn.head())
+print(historico_nn.head())
 
 #%% Métricas consolidadas da Rede Neural
 
